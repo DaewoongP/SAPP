@@ -259,7 +259,7 @@ void *ThreadMain(void *argument)
         //    break;
         //}
         //scanf("%s", buf); //scan function *****
-        sprintf(buf,"%d",sensor_num()); //%d to buf function ***
+        sprintf(buf,"%d",ran_num()); //%d to buf function ***
         
         int size = strlen(buf);
         buf[size] = '\n'; 
